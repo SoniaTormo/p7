@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vae-60</title>
+    
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: bisque;
+    }
+
+    h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: justify;
+        background-color: #eeff00; /*color de fondo*/
+        text-transform: capitalize; /*primera letra mayus, resto minus*/
+        text-shadow: 2px 2px 5px rgb(249, 16, 221); /*Texto sombreado, primer px derecha izquierda, , segundo px arriba y abajo , ultimo efecto borroso*/
+        transition: line-heigth 3s, font-size 6s; /*efecto visual*/
+        letter-spacing: 7px;
+        line-height: 1.2;
+    }
+
+    body{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        display: flex; /*contenedor flexible*/
+        width: 100vw; /*anchura del contenedor*/
+        height: 100vh; /*altura del contenedor*/
+        justify-content: left; /* justificar contenido a la izquierda */
+        align-items: center;
+        background-color: aquamarine; /* color de fondo */
+        transition: width 2s, height 4s;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 25vw;
+        background-color: rgb(204, 53, 201);
+        text-transform: lowercase;
+        text-shadow: 2px 2px 5px rgb(229, 249, 16);
+    }
+
+    h1, p{
+        margin-bottom: 2rem; /* margen inferior */
+    }
+
+    button{
+        position: absolute; /* posicion exacta */
+        left: 0; /* izquierda */
+        top: 0; /* arriba */
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: blue; /* color de fondo */
+        border: none; /* sin bordes */
+        width: 10vw; /* el ancho del boton */
+        color: #ffffff;
+        font-size: 1rem;
+        text-align: center;
+        padding: 1rem 1rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        box-shadow: 2px 2px #ffffff inset,2px 2px;
+        font-size: 2em;
+        line-height: .9em;
+        transition: line-heigth 3s, font-size 6s;
+        text-decoration: line-through;
+    }
+
+    .menu:hover {
+        box-shadow: 2px 2px inset, 2px 2px #D8D8E0;
+    }
+
+    p.small{
+        line-height: 0.8;
+    }
+
+    p{
+        font-size: 2em;
+        line-height: .9em;
+        transition: line-heigth 3s, font-size 6s;
+    }
+    
+    p:hover{
+        line-height: 6em;
+        font-size: 6em;
+    }
+
+    h1:hover{
+        line-height: 6em;
+        font-size: 6em;
+    }
+
+</style>
+<body>
+    <button class="menu">índex</button>
+
+    <div class="container">
+        <h1>elogi general de la cordovesa escritper un funcionari jubilat que vivia al carrer de correus.
+            fou trobat, el seu elogi general, a l'urinari de l'antic café de "lauria"</h1>
+            <div class="cos">
+                <p>
+                    Vares entrar, tota nua, a la vida,<br>
+                    vares entrar expandint claredats.<br>
+                    Vares entrar, i callava tothom,<br>
+                    nua, dempeus, com rierol o font.<br>
+                </p>
+                <p class="small">
+                    Et va cantar l'universal silenci<br>
+                    fet d'estupor i fet d'amor que dura.<br>
+                    Més que arbre, més, pàgina memorable,<br>
+                    esdevingut norma des de llavors.<br>
+                </p>
+                <p>
+                    Vares entrar, tota nua, a la vida,<br>
+                    i amb rabents mans s'acostava tothom<br>
+                    rentant-se en llums o claredat suprema<br>
+                </p>
+                <p>
+                    Sols amb un dit t'eixamples el sexe,<br>
+                    a tot honor rebent cada visita,<br>
+                    rebent tothom sense cansar-te mai.<br>
+                </p>
+            </div>
+    </div>
+</body>
+</html>
